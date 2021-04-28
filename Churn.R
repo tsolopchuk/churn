@@ -1,6 +1,5 @@
 #load and explore datat 
-churn_data <- read.csv('C:\\Users\\mattn\\Desktop\\DAP\\Classification\\churn_data.csv', 
-                       stringsAsFactors = FALSE)
+churn_data <- read.csv('churn_data.csv', stringsAsFactors = FALSE)
 
 library(ggplot2)
 #3 continious vars+ 4 categorical vars. 
